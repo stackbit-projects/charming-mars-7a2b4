@@ -1,0 +1,53 @@
+title: Simpol Theme
+subtitle: 'Focus on the writing, the content.'
+greeting: null
+logo_img: null
+subgreeting_one: null
+subgreeting_two: null
+nav_link_one_name: null
+nav_link_one_link: null
+nav_link_two_name: Categories
+nav_link_two_link: /categories
+nav_link_three_name: null
+nav_link_three_link: null
+footer_link_one_name: null
+footer_link_one_link: null
+footer_link_two_name: Categories
+footer_link_two_link: /categories
+footer_link_three_name: null
+footer_link_three_link: null
+baseurl: ''
+google_tracking_id: null
+copyright_name: 'Mathson Design, LLC'
+logo: /assets/img/simpol-favicon.png
+description: >-
+  Simpol Theme is a clean, minimal website theme all about the writing, the
+  content. Currently available for Jekyll. Perfect for blogging.
+author:
+  name: Simpol Theme
+  email: simpol@scottmathson.com
+  twitter: simpoltheme
+social:
+  name: Simpol Theme
+  links:
+    - 'https://twitter.com/simpoltheme'
+    - 'https://github.com/simpol-theme'
+permalink: pretty
+paginate: 12
+defaults:
+  - scope:
+      path: assets/img
+    values:
+      image: true
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - README.md
+  - vendor
+url: ''
